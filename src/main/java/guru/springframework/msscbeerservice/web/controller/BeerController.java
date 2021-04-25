@@ -26,11 +26,11 @@ public class BeerController {
         return  new ResponseEntity(HttpStatus.CREATED);
     }
 
-    @PostMapping("/{beerId}")
+    @PutMapping("/{beerId}")
     public ResponseEntity updateBeerId(@PathVariable("beerId") UUID beerId, @RequestBody @Validated BeerDto beerDto){
 
         //todo impl
-        return new ResponseEntity(HttpStatus.CREATED);
+        return new ResponseEntity(HttpStatus.NO_CONTENT);
     }
 
 }
