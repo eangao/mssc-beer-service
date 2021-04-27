@@ -1,7 +1,7 @@
 package guru.springframework.msscbeerservice.bootstrap;
 
+import guru.springframework.msscbeerservice.domain.Beer;
 import guru.springframework.msscbeerservice.repositories.BeerRepository;
-import guru.springframework.msscbeerservice.web.domain.Beer;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
